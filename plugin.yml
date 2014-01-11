@@ -1,5 +1,8 @@
 name: NSGUI
-main: net.naturalmc.gui.Main
+main: net.naturalmc.NSScore.Main
 version: 0.6
 description: NaturalSurvival GUI
-author: Iceepwn. Not Jake, He does nothing! iTornado1234
+author: Ice3pwn
+commands:
+  NSRestart:
+    usage: /<command>

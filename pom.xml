@@ -1,0 +1,19 @@
+<project>
+    <modelVersion>1.</modelVersion>
+    <groupId>net.naturalmc.NSSCore.Main</groupId>
+    <artifactId>NMCGUI</artifactId>
+    <version>1</version>
+        <plugin>
+        <inherited>true</inherited>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-source-plugin</artifactId>
+        <executions>
+            <execution>
+                <id>attach-sources</id>
+                <goals>
+                    <goal>jar</goal>
+                </goals>
+            </execution>
+        </executions>
+    </plugin>
+</project>
